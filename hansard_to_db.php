@@ -143,7 +143,7 @@ function sax_cdata($parser, $data) {
 }
 
 // DB Connection
-$pdo = new PDO('mysql:host=cusetup-100.sgul.ac.uk;dbname=parligram', 'parligramuser', 'ycw3JUmx4h');
+$pdo = new PDO('mysql:host');
 
 $parser = xml_parser_create();
 xml_set_element_handler($parser, 'startElemHandler', 'endElemHandler');
