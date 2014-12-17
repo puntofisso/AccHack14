@@ -133,6 +133,7 @@ var chart = nv.models.lineChart()
                 .showLegend(true)       //Show the legend, allowing users to turn on/off line series.
                 .showYAxis(true)        //Show the y-axis
                 .showXAxis(true)        //Show the x-axis
+		.width(800).height(400)
   ;
 
   chart.xAxis
